@@ -1,2 +1,6 @@
 # a3c-rl
-Asynchronous methods for DRL, however, it's hard to train a agent. In my experiment Pong, I only reach a average reward of about 12 no matter how I turn the parameters. The paper show that a3c algorithm will beat the AI every time after 10 hours training. Maybe there are some bugs in my program.
+Use a slightly different algorithm to train a pong agent.
+reach a mean reward about 12 in 2e7 steps with learning rate 1e-4.
+
+Combine the cpu and gpu. Because I use a Monte-Carlo method, ie. n-steps, for such a episode game.
+I put the backward part on the gpu which can speed up the training a lot.

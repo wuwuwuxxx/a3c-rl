@@ -13,7 +13,7 @@ dim_output = 3
 T = 0
 Tmax = 8e7
 num_thread = 16
-init_lr = 1e-5
+init_lr = 1e-4
 
 
 def get_action(x):
